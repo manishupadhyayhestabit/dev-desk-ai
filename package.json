@@ -1,0 +1,32 @@
+{
+  "name": "dev-desk-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "packageManager": "npm@11.7.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint": "turbo run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishupadhyayhestabit/dev-desk-ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/manishupadhyayhestabit/dev-desk-ai/issues"
+  },
+  "homepage": "https://github.com/manishupadhyayhestabit/dev-desk-ai#readme",
+  "devDependencies": {
+    "turbo": "^2.8.9"
+  }
+}
